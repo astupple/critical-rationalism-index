@@ -16,18 +16,22 @@ type Concept = {
 
 export const ConceptSections: ConceptSection[] = [
   {
-    name: "Epistemology and Science",
+    name: "Epistemology",
     description:
-      "At its core, Critical Rationalism is a theory about knowledge creation and error correction.",
+      "Theories about knowledge are famously abstract and convoluted, so most people settle on the basic idea that knowledge consists of beliefs justified by some amount of evidence. Critical rationalism refutes this stance and replaces it with an evolutionary idea - knowledge comes from guesses that are improved with criticism..",
     conceptAreas: [
       {
-        name: "How does human knowledge grow?",
+        name: "How do we know?
+",
         description:
-          "How does human knowledge grow? How do we know what we know?",
+          "How do we know what we know?
+        We know when we create explanations that solve problems. Creativity is central to this process, so long as bad guesses at explanations are eliminated by criticism. Contrary to popular belief, evidence and facts are derived from our explanations about the world, not the other way around. This 20 minute podcast crafts the argument in the context of developing an artificial knowledge creator, and AGI. https://blog.dennishackethal.com/podcasts/artificial-creativity/episodes/04-how-do-we-know
+       ",
+        
       },
       {
-        name: "The science of science",
-        description: "How does science work?",
+        name: "How does science work",
+        description: "Karl Popper's philosophy of science opened the door to his philosophy of how all knowledge works, not just science. Therefore, it is worthwhile understanding his philosophy of science, becaus it then becomes relatively straightforward to apply it to other domains. Popper found that scientific knowledge grows in an analagous fashion to biological or genetic knowledge. A genome learns to adapt to an environment by variation and selection. Similarly, explanatory knowledge adapts to a problem situation by conjecture and refutation. In both instances, there is a creative act, followed by a critique of that act, usually in the form of an experimental test.",
       },
     ],
   },
